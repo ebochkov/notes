@@ -1,5 +1,7 @@
 # Jupyter tips and trics
 
+## Adding import macro 
+
 1. Create Jupyter cell and copy your snippet:
 
 ```python
