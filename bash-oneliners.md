@@ -9,5 +9,5 @@ rsync -a dir1/ dir2
 Sync directory and delete:
 
 ```bash
-rsync -a -- delete dir1/ dir2
+rsync -a --delete dir1/ dir2
 ```
