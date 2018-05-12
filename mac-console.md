@@ -25,3 +25,13 @@ The first line changes the bash prompt to be colorized, and rearranges the promp
 The next two lines enable command line colors, and define colors for the `ls` command
 
 Finally, we alias `ls` to include a few flags by default. `-G` colorizes output, `-h` makes sizes human readable, and `-F` throws a `/` after a directory, `*` after an executable, and a `@` after a symlink, making it easier to quickly identify things in directory listings.
+
+## Git completion
+
+Add bash-completion to your `~/.bash_profile`.
+
+```bash
+if [ -f $(brew --prefix)/etc/bash_completion ]; then
+  . $(brew --prefix)/etc/bash_completion
+fi
+```
