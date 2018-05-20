@@ -12,12 +12,14 @@ import shutil
 import random
 import itertools 
 import matplotlib
+import pickle
 
 import numpy as np
 import pandas as pd 
 import matplotlib.pyplot as plt
 
-from tqdm import tqdm_notebook
+from datetime import datetime
+from tqdm import tqdm, tqdm_notebook
 from glob import glob
 from shutil import copyfile
 from sklearn.model_selection import train_test_split
